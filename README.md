@@ -13,6 +13,6 @@ The Scrapper is responsible for extracting messages from the web page www.everyo
 For more details about the Scrapper, refer to the notebook Scrapper.ipynb.
 
 ## Server
-The Server is responsible for receiving and processing the messages in real-time. It uses Spark Streaming, an extension of the core Spark API, to receive and process the data.
+The Server is responsible for receiving and processing the messages in real-time. It uses Spark Streaming, an extension of the core Spark API, to receive and process the data. During processing, the server uses Sentiment Vader for sentiment analysis, keyword detection for identifying important themes, and unsupervised Natural Language Processing (NLP) techniques to extract meaningful insights from the messages.
 
 For more details about the Server, refer to the notebook Server.ipynb.
