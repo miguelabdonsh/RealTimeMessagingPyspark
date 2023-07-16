@@ -14,3 +14,5 @@ For more details about the Scrapper, refer to the notebook Scrapper.ipynb.
 
 ## Server
 The Server is responsible for receiving and processing the messages in real-time. It uses Spark Streaming, an extension of the core Spark API, to receive and process the data.
+
+For more details about the Server, refer to the notebook Server.ipynb.
